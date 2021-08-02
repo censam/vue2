@@ -1,21 +1,26 @@
 <template>
-<div class="container search-box">
-  <form class="d-flex">
-    <input class="form-control me-sm-2" type="text" placeholder="Search a Song">
-    <!-- <button class="my-2 btn btn-secondary my-sm-0" type="submit">Search</button> -->
-  </form>
+<div class="row search-results">
+  <div class="col-md-12">
+    Heee
+  </div>
+
 </div>
 </template>
 
 <script>
 export default {
-  name: 'Search',
+  name: 'SearchResult',
 }
 </script>
 
 <style scoped>
-.search-box{
+.search-results{
   margin-top:30px;
-  width: 50%;
+  border: 2px solid green;
+  width: 90%;
+  margin-left: 20px;
+  border-radius: 5px;
+  padding: 20px;
+  /* width: 50%; */
 }
 </style>
